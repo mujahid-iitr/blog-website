@@ -1,0 +1,29 @@
+{
+  "name": "nextjs-course",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "mongodb": "^3.6.4",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^5.0.3",
+    "react-syntax-highlighter": "^15.4.3",
+    "sharp": "^0.34.5"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.4.49"
+    },
+    "cssnano-simple": {
+      "postcss": "7.0.35"
+    }
+  }
+}
